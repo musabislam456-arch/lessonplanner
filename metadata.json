@@ -1,0 +1,6 @@
+{
+  "name": "LessonPlanner AI",
+  "description": "Premium AI-powered lesson plan generator, worksheet builder, and grading rubric creator designed for K-12 and higher-ed teachers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
