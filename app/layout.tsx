@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'LessonPlanner AI Team' }],
   creator: 'LessonPlanner AI',
   publisher: 'LessonPlanner AI',
-  metadataBase: new URL(process.env.APP_URL || 'https://lessonplanner.ai'),
+  metadataBase: new URL(process.env.APP_URL || 'https://lessonplanner.utilix.site'),
   openGraph: {
     title: 'LessonPlanner AI — High-Impact Instructional Design for Teachers',
     description: 'Instant, research-backed lesson plans, fill-in-the-blank worksheets, and observable grading rubrics. Reclaim your evenings.',
@@ -70,4 +70,3 @@ export default function RootLayout({
     </html>
   );
 }
-
