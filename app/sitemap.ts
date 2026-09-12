@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { BLOG_POSTS } from '@/lib/blog-data';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.APP_URL || 'https://lessonplanner.ai';
+  const baseUrl = process.env.APP_URL || 'https://lessonplanner.utilix.site';
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {
